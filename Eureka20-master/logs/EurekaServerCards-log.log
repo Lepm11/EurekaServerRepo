@@ -1,0 +1,252 @@
+2022-05-26 16:32:16,979 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 17.0.2 on LAPTOP-JB8PKE3J with PID 6880 (C:\Users\106846781\Documents\Dockers\Eureka20-master\target\classes started by 106846781 in C:\Users\106846781\Documents\Dockers\Eureka20-master)
+2022-05-26 16:32:16,986 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 16:32:17,039 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-26 16:32:17,041 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-26 16:32:18,398 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=18010e9f-a28a-3f4b-9d27-0f4aabaf3f4a
+2022-05-26 16:32:19,280 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-05-26 16:32:19,295 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-05-26 16:32:19,295 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-26 16:32:19,296 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-26 16:32:19,431 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-26 16:32:19,431 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2390 ms
+2022-05-26 16:32:20,701 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-05-26 16:32:20,762 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-05-26 16:32:20,764 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-05-26 16:32:20,954 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-05-26 16:32:20,955 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-05-26 16:32:22,324 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-26 16:32:22,456 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-05-26 16:32:22,714 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-26 16:32:22,737 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-26 16:32:22,792 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-26 16:32:22,793 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-05-26 16:32:22,811 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1653600742810 with initial instances count: 0
+2022-05-26 16:32:22,879 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-05-26 16:32:22,881 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-05-26 16:32:23,035 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-05-26 16:32:23,035 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-05-26 16:32:23,035 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-05-26 16:32:23,035 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-05-26 16:32:23,238 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-05-26 16:32:23,272 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-05-26 16:32:23,280 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-05-26 16:32:23,375 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-26 16:32:23,464 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-05-26 16:32:23,467 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-05-26 16:32:23,476 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] isAws returned false
+2022-05-26 16:32:23,477 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] Initialized server context
+2022-05-26 16:32:23,478 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Got 1 instances from neighboring DS node
+2022-05-26 16:32:23,478 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Renew threshold is: 1
+2022-05-26 16:32:23,478 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Changing status to UP
+2022-05-26 16:32:23,506 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-05-26 16:32:23,507 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-05-26 16:32:23,529 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-16] Started Eureka Server
+2022-05-26 16:32:23,697 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 7.246 seconds (JVM running for 8.82)
+2022-05-26 16:32:40,609 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8761-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-26 16:32:40,610 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-26 16:32:40,612 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8761-exec-1] Completed initialization in 2 ms
+2022-05-26 16:32:40,970 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:32:41,594 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:32:45,263 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:32:45,770 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:32:45,771 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-5] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:32:45,773 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-4] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:32:45,774 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-4] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:33:23,479 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:34:23,479 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:35:23,494 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 15ms
+2022-05-26 16:36:03,007 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:36:03,517 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:36:18,047 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance SERVICIO-GATEWAY-SERVER/host.docker.internal:servicio-gateway-server:8090 with status UP (replication=false)
+2022-05-26 16:36:18,556 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance SERVICIO-GATEWAY-SERVER/host.docker.internal:servicio-gateway-server:8090 with status UP (replication=true)
+2022-05-26 16:36:23,495 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:37:23,495 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:38:23,495 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:38:56,608 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:38:57,115 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:39:00,901 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:39:01,422 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:39:01,423 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-10] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:39:01,429 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-4] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:39:01,430 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-4] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:39:23,496 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:39:28,854 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:39:29,361 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:40:23,497 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 16:41:23,497 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:42:18,735 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:42:19,247 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:42:22,714 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:42:23,228 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:42:23,229 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:42:23,232 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-15] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:42:23,233 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-15] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:42:23,501 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 16:43:14,463 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:43:14,980 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:43:23,507 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 16:44:23,508 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 16:44:32,401 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:44:32,916 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:44:36,242 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:44:36,756 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:44:36,756 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-8] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:44:36,758 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-1] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:44:36,759 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-1] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:44:39,860 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:44:40,368 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:44:59,972 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:45:00,486 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:45:04,166 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:45:04,674 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:45:04,675 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:45:04,677 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-12] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:45:04,677 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-12] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:45:07,885 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:45:08,392 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:45:23,509 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:45:34,167 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:45:34,684 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:45:38,448 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:45:38,960 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:45:38,961 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:45:38,962 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-5] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:45:38,962 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-5] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:45:42,016 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:45:42,526 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:46:22,569 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:46:23,079 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:46:23,510 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 16:46:26,054 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:46:26,558 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:46:26,558 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:46:26,560 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-12] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:46:26,560 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-12] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:46:30,423 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:46:30,935 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:47:23,272 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 5
+2022-05-26 16:47:23,511 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:48:09,527 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:48:10,045 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:48:13,542 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:48:14,057 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:48:14,058 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-8] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:48:14,059 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-8] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:48:14,060 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-8] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:48:17,080 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:48:17,592 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:48:23,512 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 16:49:00,915 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:49:01,436 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:49:05,026 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:49:05,542 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:49:05,543 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:49:05,544 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:49:05,544 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:49:08,499 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:49:09,005 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:49:23,527 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 14ms
+2022-05-26 16:50:14,866 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:50:15,379 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:50:18,208 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:50:18,716 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:50:18,717 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:50:18,718 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-10] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:50:18,719 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-10] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:50:21,635 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:50:22,146 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:50:23,535 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 8ms
+2022-05-26 16:51:13,580 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:51:14,093 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:51:17,165 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:51:17,670 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:51:17,671 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:51:17,672 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-18] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:51:17,672 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-18] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:51:20,737 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:51:21,247 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:51:23,535 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:51:36,278 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:51:36,791 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:51:40,160 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:51:40,666 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:51:40,666 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:51:40,667 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-5] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:51:40,668 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-5] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:52:23,535 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:53:23,536 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:54:23,545 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-05-26 16:55:23,546 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:56:15,394 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 16:56:15,907 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 16:56:23,549 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-26 16:57:23,549 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:58:23,549 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 16:59:13,771 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 16:59:14,285 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 16:59:17,356 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 16:59:17,873 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 16:59:17,874 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 16:59:17,875 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-18] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 16:59:17,875 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-18] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 16:59:23,560 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 11ms
+2022-05-26 17:00:13,969 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 17:00:14,484 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 17:00:23,560 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:01:23,561 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:01:35,660 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 17:01:36,168 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 17:01:39,505 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 17:01:40,008 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 17:01:40,009 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 17:01:40,010 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-18] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 17:01:40,011 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-18] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 17:01:43,229 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 17:01:43,742 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 17:02:23,273 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 5
+2022-05-26 17:02:23,561 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:03:23,562 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:04:23,562 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:05:03,709 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 17:05:04,216 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 17:05:07,481 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 17:05:07,994 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 17:05:07,996 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 17:05:07,997 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-11] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 17:05:07,997 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-11] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 17:05:11,349 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 17:05:11,863 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 17:05:23,563 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 17:06:07,086 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 17:06:07,599 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 17:06:11,349 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 (replication=false)
+2022-05-26 17:06:11,842 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: lease doesn't exist, registering resource: API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 17:06:11,843 WARN com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Renew): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 17:06:11,843 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-CREDITCARD/host.docker.internal:api-creditCard:8001
+2022-05-26 17:06:11,843 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-CREDITCARD - host.docker.internal:api-creditCard:8001
+2022-05-26 17:06:11,844 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-11] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Heartbeat@localhost failed with response code 404
+2022-05-26 17:06:11,845 WARN com.netflix.eureka.cluster.PeerEurekaNode$3 [TaskBatchingWorker-target_localhost-11] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Heartbeat@localhost: missing entry.
+2022-05-26 17:06:11,845 WARN com.netflix.eureka.cluster.PeerEurekaNode$3 [TaskBatchingWorker-target_localhost-11] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Heartbeat@localhost: cannot find instance id host.docker.internal:api-creditCard:8001 and hence replicating the instance with status DOWN
+2022-05-26 17:06:11,845 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-11] The replication of task API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost failed with response code 404
+2022-05-26 17:06:11,845 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-11] API-CREDITCARD/host.docker.internal:api-creditCard:8001:Cancel@localhost: missing entry.
+2022-05-26 17:06:12,352 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 17:06:15,334 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=false)
+2022-05-26 17:06:15,851 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status UP (replication=true)
+2022-05-26 17:06:23,563 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:07:06,175 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=false)
+2022-05-26 17:07:06,686 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-CREDITCARD/host.docker.internal:api-creditCard:8001 with status DOWN (replication=true)
+2022-05-26 17:07:09,335 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(44)-127.0.0.1] Application shutdown requested.
+2022-05-26 17:07:09,336 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(44)-127.0.0.1] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-05-26 17:07:09,360 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(44)-127.0.0.1] Shutting down Eureka Server..
+2022-05-26 17:07:09,405 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(44)-127.0.0.1] Shutting down ...
+2022-05-26 17:07:09,412 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(44)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-05-26 17:07:09,421 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(44)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-05-26 17:07:09,428 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(44)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-05-26 17:07:09,436 INFO com.netflix.servo.monitor.StatsMonitor [RMI TCP Connection(44)-127.0.0.1] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-05-26 17:07:09,551 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(44)-127.0.0.1] Shut down
+2022-05-26 17:07:09,551 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(44)-127.0.0.1] Eureka Service is now shutdown...
+2022-05-26 17:07:09,552 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(44)-127.0.0.1] Shutting down ...
+2022-05-26 17:07:09,611 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(44)-127.0.0.1] Shut down
+2022-05-26 17:07:10,117 INFO org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration$1 [Thread-5] Flushing remaining spans on shutdown
+2022-05-26 17:07:10,119 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(44)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-05-26 17:07:10,138 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(44)-127.0.0.1] Completed shut down of DiscoveryClient
